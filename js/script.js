@@ -56,7 +56,7 @@ $(document).ready(function() {
         html += "</div>";
         html += "</div>";
         html += "<h5 class='p-0 m-0 pt-1'>" + value.cuisines + "</h4>";
-        html += "<h6 class='pt-2 mb-0'>" + value.currency + value.average_cost_for_two + +value.phone_numbers+ " <span class='text-muted'>for two</span></h4>";
+        html += "<h6 class='pt-2 mb-0'>" + value.currency + value.average_cost_for_two +  " <span class='text-muted'>for two</span></h4>";
         html += "<p class='p-0 m-0'>" + value.timings + "</p>";
         html += "</div>";
         html += "</div>";
