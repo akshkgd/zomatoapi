@@ -17,8 +17,8 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-light bg-white ck-navbar sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark" href="{{ url('/') }}" style=" font-size:24px   ">
-                codekaro  </a>
+                <a class="navbar-brand text-dark" href="index.html" style=" font-size:24px; font-weight: 700;   ">
+                Zomato API  </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,15 +30,7 @@
         <a class="nav-link" href="{{url('/about')}}">About </a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="{{url('/explore-course')}}">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{url('/events')}}">Events</a>
-      </li>
+     
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -52,7 +44,7 @@
 
                             
                         <li class="nav-item">
-                            <a class="nav-lin  btn btn-primary" href="{{ route('register') }}" style="border-radius: 2px;">Get Started</a>
+                            <a class="nav-lin  btn btn-primary" href="more.html" style="border-radius: 2px;">Know More</a>
                         </li>
                        
                         
@@ -94,40 +86,7 @@
         </div>
 
 
-    <div class="container pt-5 d-none">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="img-rounded">
-                    <div class="jumbotron jumbotron-billboard text-center">
-                        <div class="img"></div>
-                        <div class="container pt">
-
-                            <div class="mt-5 text-color">
-                                <h1 class="display-4">Find the best Restaurants <i class="bi bi-x-circle-fill"></i></h1>
-                            </div>
-                            <div class="row mx-auto well col-lg-12 mt-5">
-                                <div class="col-md-4 pr-0">
-                                    <select id="select_id" class="form-control form-control-lg">
-                                        <option value="Select City" hidden>Select City</option>
-                                        <option value="4">Bengaluru</option>
-                                        <option value="3">Mumbai</option>
-                                        <option value="24">Allahabad</option>
-                                        <option value="11828">Hyderabad</option>
-                                        <option value="5">Pune</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 pl-0 pr-0">
-                                    <input id="getText" type="text" class="form-control"
-                                        placeholder="Search for Restaurant">
-                                </div>
-                                <button id="getMessage" class="btn btn-success col-xs-2">Search</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <div class="container pt-5">
         <div class="row collection ">
 
