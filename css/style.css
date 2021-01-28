@@ -74,7 +74,10 @@
 .text-color {
     color: white;
 }
-
+.details{
+    height: 150px;
+    width: 150px;
+}
 .pt {
     padding-top: 75px;
 }

@@ -11,6 +11,7 @@ $(document).ready(function() {
     //--------------------------------------------------SEARCH BY CITY
    
     function select() {
+        $('#details').hide();
      var valueDropdown = $('#select_id').val();
      var valueSearchBox = $('#getText').val()
      var searchCity = "&q=" + valueSearchBox;
